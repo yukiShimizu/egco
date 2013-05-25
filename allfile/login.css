@@ -1,0 +1,173 @@
+#header{
+	position: fixed !important;
+	position:absolute;
+	margin-bottom:40%;
+	width:100%;
+	height:40px;
+	background-color: #CCC;
+	padding:0;
+	margin:0;
+}
+
+	#pink{
+		position:absolute;
+		top:0px;
+		left:0%;
+		width: 100%;
+		height:40px;
+		background-color: #FF69B4;
+		}
+		
+	#green{
+		position:absolute;
+		top:0px;
+		left: 30%;
+		width: 100%;
+		height:40px;
+		background-color: #00FF00;
+		}
+		
+	#aqua{
+		position:absolute;
+		top:0px;
+		left: 50%;
+		width: 100%;
+		height:40px;
+		background-color: #00FFFF;
+		}
+		
+	#yellow{
+		position:absolute;
+		top:0px;
+		left: 60%;
+		width: 100%;
+		height:40px;
+		background-color: #FFFF00;
+		}
+		
+	#gray{
+		position:absolute;
+		top:0px;
+		left: 85%;
+		width: 100%;
+		height:40px;
+		background-color: #C0C0C0;
+		}
+	/*ここまで*/
+	
+#allcontents{
+	display:-moz-box;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flexbox;
+	margin-left:10%;
+	margin-right:10%;
+	/*border: 1px solid #ccc;*/
+}
+
+
+#contents{
+	margin-left: 5%;
+	margin-top: 15%;
+	width: 55%;
+	height: 50%;
+	font-size: 500%;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+	
+#sidenavi{
+	margin-top: 15%;
+	margin-left: 20%;
+}
+	
+#loginTx{
+	margin-left: 28%;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#regTx{
+	margin-top:12%;
+	margin-left: 27%;
+	margin-bottom:1.5%;
+	color: #000000;
+	font-size: 12px;
+	font-weight: bolder;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+input{
+	-webkit-border-radius:13px;
+	-moz-border-radius:13px;
+	border-radius:13px;
+	text-shadow:0 1px #fff;
+	box-shadow: 0 1px 0 #fff;
+	padding:5px;
+	border:1px solid #ccc;
+}
+
+#loginTxarea{
+	position:relative;
+	margin-top:7px;
+}
+
+#loginPassarea{
+	margin-top:7px;
+	float:left;
+}
+
+#loginButton{
+	margin-top:7px;
+	font-size:10px;
+	width:120px;
+	background-color:#F0F0F0;
+	border:1px solid#C1C1C1;
+	
+	text-align:center;
+	font-weight:bold;
+	line-height:20px;
+	text-decoration:none;
+	border-radius:13px;
+	margin-left:3%;
+}
+
+#fbButton{
+	width:250px;
+	font-size:15px;
+	background-image:-moz-linear-gradient(rgb(162,181,216),rgb(110,138,180));
+	/*background-image:-webkit-linear-gradient(rgb(162,181,216),rgb(110,138,180));*/
+	/*background-image:-webkit-linear-gradient(rgb(0,0,255),rgb(110,138,180));*/
+	/*background-image:linear-gradient(rgb(0,0,255),rgb(0,0,255));*/
+	background-color:#0033FF;
+	/*background-image:linear-gradient(rgb(162,181,216),rgb(110,138,180));*/
+	border-radius:5px;
+	color:#FFF;
+	
+	margin-bottom:5%;
+}
+
+#rgButton{
+	margin-top:3px;
+	font-size:15px;
+	width:250px;
+	background-color:#F0F0F0;
+	border:1px solid#C1C1C1;
+	
+	text-align:center;
+	font-weight:bold;
+	line-height:25px;
+	text-decoration:none;
+	border-radius:5px;
+	
+	margin-bottom:20%;
+}
+	
+#footer{
+	height:30px;
+	clear:both;
+}
